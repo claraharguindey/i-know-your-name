@@ -15,11 +15,11 @@ function apiCall(event) {
             console.log('username',userName);
             let nameCharacters = userName.split("");
             list.innerHTML = "";
-            for (let i = 0; i < userName.length; i++) {
-                if (nameCharacters[i] !== "") {
+            for (let i = 0; i < nameCharacters.length; i++) {
+                if (nameCharacters[i] !== " ") {
                     list.innerHTML += `<li class="item"> ${nameCharacters[i]} </li>`;
                 }
-                else if (nameCharacters === "") { }
+                else if (nameCharacters[i] === " ") { break; }
             }
         })
 }
