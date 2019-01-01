@@ -25,6 +25,10 @@ body {
     border-bottom: solid 3px black;
     padding-top:20px;
 }
+.list{
+    display: flex;
+    justify-content: center;
+}
 
 .button {
     background-color: black;
@@ -34,11 +38,11 @@ body {
 }
 
 .item {
-    padding: 10px;
-    margin: 20px;
+    padding: 40px;
+    margin: 50px 20px;
     background-color: rgba(58, 94, 160, 0.664);;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-style: italic;
     text-transform: uppercase;
     text-align: center;
